@@ -52,9 +52,6 @@ function WritingPage() {
           Build logs, product breakdowns, and small essays on AI — mostly for me,
           occasionally useful for you.
         </p>
-        <p className="mt-3 font-mono text-[11px] text-muted-foreground/70">
-          Add markdown files in <span className="text-ivory/80">src/content/blog/</span> — they appear here automatically.
-        </p>
       </motion.div>
 
       <div className="mt-10 flex flex-wrap gap-2">

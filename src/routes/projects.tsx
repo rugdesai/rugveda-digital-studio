@@ -41,9 +41,6 @@ function ProjectsPage() {
           Products I've designed, engineered and shipped — usually with a small team,
           always with too many ideas in the margins.
         </p>
-        <p className="mt-3 font-mono text-[11px] text-muted-foreground/70">
-          Edit <span className="text-ivory/80">src/data/projects.ts</span> to add or update projects.
-        </p>
       </motion.div>
 
       <div className="mt-16 space-y-8">
