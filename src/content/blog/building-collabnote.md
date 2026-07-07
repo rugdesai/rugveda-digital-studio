@@ -13,7 +13,7 @@ cover: "from-blue/60 via-orange/30 to-transparent"
 
 For years, I used tools like Notion, productivity apps, and collaborative workspaces without thinking about the engineering behind them.
 
-Typing a sentence, watching it save, seeing updates appear instantly — everything felt obvious as a user.
+Typing a sentence, watching it save, seeing updates appear instantly everything felt obvious as a user.
 
 And maybe that is what makes great products interesting.
 
