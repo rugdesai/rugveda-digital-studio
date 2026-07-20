@@ -90,16 +90,8 @@ function ProjectsPage() {
 
               <div className="flex flex-col justify-between gap-4 lg:items-end">
                 <div className="flex flex-wrap gap-2 lg:justify-end">
-                  <Link
-                    to="/projects/$slug"
-                    params={{ slug: p.slug }}
-                    className="inline-flex items-center gap-1.5 rounded-full bg-ivory/10 px-4 py-2 text-sm font-medium text-ivory transition-colors hover:bg-ivory/20"
-                  >
-                    Case study
-                    <ArrowUpRight className="h-3.5 w-3.5" />
-                  </Link>
-                  <ProjectLinks project={p} compact />
-                </div>
+  <ProjectLinks project={p} compact />
+</div>
               </div>
             </div>
           </motion.article>
