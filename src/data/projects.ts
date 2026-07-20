@@ -98,15 +98,15 @@ export const projects: Project[] = [
   name: "DevPlus",
 
   description:
-    "An AI-powered developer analytics platform that transforms GitHub activity into meaningful engineering insights.",
+    "An AI-powered developer analytics platform that transforms GitHub profiles into comprehensive developer insights, scores, and repository analytics.",
 
-  status: "Building",
+  status: "Live",
 
   problem:
-    "Developers create valuable signals through commits, pull requests, and collaboration, but this activity is usually scattered across repositories and difficult to understand at a higher level.",
+    "GitHub profiles expose large amounts of repository and contribution data, but developers and recruiters often lack meaningful insights into coding patterns, strengths, and overall engineering impact.",
 
   solution:
-    "DevPlus analyzes GitHub activity and converts raw development data into readable summaries, productivity insights, and project progress reports using AI.",
+    "DevPlus integrates with the GitHub API to analyze repositories, commits, languages, stars, forks, and contribution patterns, using AI to generate developer scores, strengths, weaknesses, personalized recommendations, and interactive analytics.",
 
   role: "Full-stack Engineer + AI",
 
@@ -114,36 +114,42 @@ export const projects: Project[] = [
     "React",
     "TypeScript",
     "Node.js",
-    "Express",
+    "Express.js",
     "PostgreSQL",
+    "Prisma",
     "GitHub API",
-    "OpenAI API",
+    "Gemini AI",
     "Recharts",
+    "Chrome Extension"
   ],
 
   features: [
-    "GitHub repository activity analysis",
-    "Commit and pull request insights",
-    "AI-generated development summaries",
-    "Developer contribution timeline",
+    "GitHub profile and repository analytics",
+    "AI-generated developer insights",
+    "Developer scoring algorithm",
+    "Strengths and weaknesses analysis",
+    "Personalized improvement recommendations",
     "Interactive analytics dashboard",
+    "Language and repository visualizations",
+    "Chrome extension integration"
   ],
 
   productDecisions: [
-    "Focused on insights instead of raw metrics to make developer activity easier to understand.",
-    "Designed summaries to highlight progress, blockers, and important engineering changes.",
-    "Prioritized a clean dashboard experience for quickly understanding project health.",
+    "Focused on actionable developer insights instead of overwhelming users with raw GitHub metrics.",
+    "Combined deterministic analytics with AI-generated feedback for more personalized evaluations.",
+    "Designed the extension to integrate directly into GitHub profiles for a seamless user experience.",
   ],
 
   engineeringHighlights: [
-    "Integrated GitHub APIs to fetch and process repository activity.",
-    "Built data pipelines to transform commits and pull requests into structured insights.",
-    "Implemented AI-powered summaries over developer activity.",
-    "Designed analytics dashboards using interactive visualizations.",
-    "Created scalable backend models for storing repository and activity data.",
+    "Integrated GitHub REST APIs to aggregate repository metadata, contribution statistics, and developer activity.",
+    "Designed a modular Express.js backend with Prisma ORM and PostgreSQL for scalable data storage and caching.",
+    "Implemented an AI pipeline using Gemini to generate developer scores, strengths, weaknesses, and personalized recommendations.",
+    "Built analytics visualizations with Recharts for languages, repositories, stars, and contribution metrics.",
+    "Developed a Chrome extension that injects AI-powered analytics directly into GitHub profile pages.",
+    "Implemented intelligent caching and fallback mechanisms to reduce API usage and improve reliability."
   ],
 
-  liveUrl: "",
+  liveUrl: "https://devplus-backend-85gu.onrender.com",
 
   githubUrl:
     "https://github.com/rugdesai/devplus",
